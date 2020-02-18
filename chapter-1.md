@@ -16,5 +16,7 @@ Before you go looking of subdomains, you should think about the subdomain catego
 1. Core domains.
 2. Supporting subdomains.
 3. Generic subdomains.
+
 Not only will these categories help you to find your subdomains, they will also help you to prioritize your development efforts.
+
 A core subdomain is what makes an organization special and different from other organization. 

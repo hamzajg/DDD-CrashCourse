@@ -37,5 +37,6 @@ Let's say we are building an EMR (Electronic Medical Records) system for smaller
 4. **File Archive** for storing and managing files that  are attached to the patient records (such a different documents, X-ray pictueres, scanned paper documents).
 5. **Identity Management** for making sure the right people have access to the right information.
 
-Now, how would we classify thes subdomains? The most obvious ones are **file archivre** and **identity management** which are clearly geniric subdomains. But what about the others? That depends on what is making this particular EMR system stant out amoung the others in the market. 
+Now, how would we classify thes subdomains? The most obvious ones are **file archivre** and **identity management** which are clearly geniric subdomains. But what about the others? That depends on what is making this particular EMR system stant out amoung the others in the market.
+ 
 ![Image-01](ch-1-subdomains.png)

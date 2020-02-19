@@ -23,4 +23,17 @@ A **core subdomain** is what makes an organization special and different from ot
 
 A **supporting subdomain** is a subdomain that is necessary for the organization to succeed, but it does not fall into the core domain category. It is not generic either because it still requires some level of specialization for the organization in question. You may be able to start with existing solution and tweak it or extend it to your specific needs.
 
-A **generic subdomain** is a subdomian that does not contain anything special to the organization but is still needed for the overall solution to work.
+A **generic subdomain** is a subdomian that does not contain anything special to the organization but is still needed for the overall solution to work. You can save a lot of time and work by trying to use off-the-shelf software for your generic subdomains. A typical example would be user identity management.
+
+It is worth noting that the same subdomain can fall into different categories depending on what organization does. For a company that specializes in identity management, identity management is a core domain. However, for a caompany that specializes in customer relations management, identity management is a generic subdomain.
+
+Finally, it is worth pointing out that all subdomains are importent to the overall solution refardless of the category in witch they fall. They do, however, require different amounts of effort and may also have different requirements of quality and completeness.
+
+# EXAMPLE
+Let's say we are building an EMR (Electronic Medical Records) system for smaller clinics. We have identified the following subdomains:
+1. **Patient Record** for managing patient medical records (personal information, medical history, etc.).
+2. **Lab** for ordering lab tests ad managing test results.
+3. **Scheduling** for scheduling appoinements.
+4. **File Archive** for storing and managing files that  are attached to the patient records (such a different documents, X-ray pictueres, scanned paper documents).
+5. **Identity Management** for making sure the right people have access to the right information.
+

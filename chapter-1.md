@@ -38,5 +38,9 @@ Let's say we are building an EMR (Electronic Medical Records) system for smaller
 5. **Identity Management** for making sure the right people have access to the right information.
 
 Now, how would we classify thes subdomains? The most obvious ones are **file archivre** and **identity management** which are clearly geniric subdomains. But what about the others? That depends on what is making this particular EMR system stant out amoung the others in the market.
- 
+
 ![Image-01](ch-1-subdomains.png)
+
+Since we are building an EMR system, it is pretty safe to assume that **patient records** is a core domain. If we are going to take the market by making a system that makes all the clinics work more efficiently through clever ana innovative schedudeling, then **scheduling** is probably also a core domain. Otherwise, it is a supporting subdomain, maybe built on top of some existing scheduling engine. The same reasoning can be applied to the **lab** subdomain: if a significant part of our business case is a seamless integration between patient records and the lab, then lab is most likely a core domain. Otherwise, it is a supporting subdomain.
+
+# From problems to Solutions

@@ -13,12 +13,13 @@ Content: markdown chapters + one diagram. **No code, no build.**
 
 ## Commands
 
-No build, no tests, no CI. This is a documentation-only repository.
+No build, no tests. CI checks that the relative links in the chapters and
+ADRs resolve (`.github/workflows/ci.yml`).
 
 | Task | Command |
 |---|---|
 | Preview chapter | open `chapter-1.md` in any markdown viewer/editor |
-| Lint (optional) | any markdown linter — none configured |
+| Check links (CI) | `lychee --offline --include-fragments '*.md' 'docs/**/*.md'` |
 
 ## Architecture
 
